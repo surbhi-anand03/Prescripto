@@ -1,7 +1,7 @@
 # 🏥 Prescripto
 ## Doctor Appointment booking System with online payment integeration
 
-Prescripto is a **full-stack MERN healthcare web application** that enables users to **book doctor appointments, manage schedules, handle digital prescriptions, and make secure online payments**.
+Prescripto is a **full-stack MERN healthcare web application** that enables users to **book doctor appointments, manage schedules, and make secure online payments**.
 
 The system is built using a **scalable REST API architecture**, **JWT-based authentication**, **role-based access control**, and **Razorpay payment gateway integration (Test Mode)** for transaction handling and payment flow simulation.
 
@@ -59,7 +59,7 @@ This project demonstrates **end-to-end full stack development**, healthcare work
 
 # ✨ Core Features
 
-### 👤 Patient Module
+### Patient Module
 
 * User registration & login (JWT-based)
 * Book doctor appointments
@@ -67,13 +67,13 @@ This project demonstrates **end-to-end full stack development**, healthcare work
 * View appointment & payment history
 * Secure access to personal data
 
-### 🧑‍⚕️ Doctor Module
+### Doctor Module
 
 * View assigned appointments
 * Manage availability & schedule
 * Access patient appointment details
 
-### 🛠️ Admin Module
+### Admin Module
 
 * Add, update, and manage doctors
 * View all appointments 
@@ -118,7 +118,7 @@ npm start
 
 ---
 
-## 📌 Future Enhancements
+## 📈 Future Enhancements
 
 * Enable Razorpay Live Mode
 * Payment invoices & transaction reports
