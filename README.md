@@ -14,7 +14,7 @@ This project demonstrates **end-to-end full stack development**, healthcare work
 
 📱 **QR Code (PNG) – Scan to Open Website:**
 
-![Prescripto QR Code](prescripto.svg)
+![Prescripto QR Code](Prescripto_Scanner.jpeg)
 
 ---
 
