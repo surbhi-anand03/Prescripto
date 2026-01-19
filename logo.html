@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prescriptoo QR Code</title>
+
+  <!-- QR Code Styling Library -->
+  <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.6.0/lib/qr-code-styling.js"></script>
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #ffffff;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      margin-bottom: 1px;
+      color: #4b2aad;
+    }
+
+    #qr-code {
+      margin: 2px;
+    }
+
+    .caption {
+      color: #4b2aad;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Prescripto</h2>
+
+  <div id="qr-code"></div>
+
+  <div class="caption"><h4>Scan to view live project</h4></div>
+
+  <script>
+    const qrCode = new QRCodeStyling({
+      width: 260,
+      height: 260,
+      data: "https://prescriptoo-frontend-k4dk.onrender.com",
+      dotsOptions: {
+        color: "#0b0a10",
+        type: "rounded"
+      },
+      cornersSquareOptions: {
+        color: "#0b0a10",
+        type: "extra-rounded"
+      },
+      cornersDotOptions: {
+        color: "#0b0a10"
+      }
+    });
+
+    qrCode.append(document.getElementById("qr-code"));
+  </script>
+
+</body>
+</html>
