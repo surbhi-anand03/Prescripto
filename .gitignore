@@ -1,5 +1,3 @@
-# Ignore all environment files everywhere
-**/.env
-
-# Node
-node_modules/
+# Environment variables
+.env
+backend/.env
