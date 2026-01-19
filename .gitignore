@@ -1,4 +1,5 @@
-.env
-admin/.env
-backend/.env
-frontend/.env
+# Ignore all environment files everywhere
+**/.env
+
+# Node
+node_modules/
