@@ -13,7 +13,7 @@ This project demonstrates **end-to-end full stack development**, healthcare work
 🔗 **Deployed Application:**
 [https://prescriptoo-frontend-k4dk.onrender.com/](https://prescriptoo-frontend-k4dk.onrender.com/)
 
-📱 **QR Code (PNG) – Scan to Open Website:**
+📱 **QR Code – Scan to view Project:**
 
 ![Prescripto QR Code](Prescripto_Scanner.jpeg)
 
@@ -56,7 +56,7 @@ This project demonstrates **end-to-end full stack development**, healthcare work
 
 ---
 
-## ✨ Core Features
+# ✨ Core Features
 
 ### 👤 Patient Module
 
@@ -72,7 +72,7 @@ This project demonstrates **end-to-end full stack development**, healthcare work
 * Manage availability & schedule
 * Access patient appointment details
 
-### 🛠️ Admin Module
+## 🛠️ Admin Module
 
 * Add, update, and manage doctors
 * View all appointments 
