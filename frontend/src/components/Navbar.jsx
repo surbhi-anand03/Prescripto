@@ -38,7 +38,7 @@ const Navbar = () => {
                 <li className='py-1'>CONTACT</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
             </NavLink>
-            <p className='py-1'><a href="https://prescripto-admin-ejw9.onrender.com" target="_blank" rel="noopener noreferrer">Admin</a></p>
+            <p className='py-1'><a href="https://prescriptoo-admin-my8s.onrender.com" target="_blank" rel="noopener noreferrer">Admin</a></p>
         </ul>
         <div className='flex items-center gap-4'>
             {
@@ -68,10 +68,7 @@ const Navbar = () => {
                     <NavLink onClick={()=>setShowMenu(false)} to='/doctors'><p className='px-4 py-2 rounded inline-block'>ALL DOCTORS</p></NavLink>
                     <NavLink onClick={()=>setShowMenu(false)} to='/about'><p className='px-4 py-2 rounded inline-block'>ABOUT</p></NavLink>
                     <NavLink onClick={()=>setShowMenu(false)} to='/contact'><p className='px-4 py-2 rounded inline-block'>CONTACT</p></NavLink>
-                    <a href="https://prescripto-admin-ejw9.onrender.com" target="_blank" rel="noopener noreferrer">Admin</a>
-
-
-
+                    <a href="https://prescriptoo-admin-my8s.onrender.com" target="_blank" rel="noopener noreferrer">Admin</a>
                 </ul>
               </div>
         </div>
